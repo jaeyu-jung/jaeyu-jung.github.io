@@ -2,7 +2,8 @@
 layout: about
 title: Bio
 permalink: /
-subtitle: <a href='https://econ.msu.edu/'>Department of Economics, Michigan State Univeristy</a>. Dual Majoring Environmental Science and Policy.
+subtitle: <a href='https://econ.msu.edu/'>Department of Economics, Michigan State Univeristy</a>. 
+Dual Majoring in Environmental Science and Policy.
 
 profile:
   align: right
@@ -14,8 +15,8 @@ profile:
     <p> 517-775-6292  </p>
 
    
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+     <!-- <p>123 your address street</p>
+    <p>Your City, State 12345</p>-->
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
