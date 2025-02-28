@@ -2,7 +2,7 @@
 layout: about
 title: Bio
 permalink: /
-subtitle: <a href='https://econ.msu.edu/'>Department of Economics, Michigan State Univeristy</a>.<br> Dual Majoring in Environmental Science and Policy.
+subtitle: <a href='https://econ.msu.edu/'>Department of Economics, Michigan State Univeristy</a>.
 
 profile:
   align: right
@@ -33,7 +33,7 @@ latest_posts:
 
 I am a PhD student in Economics, dual majoring Environmental Science and Policy at Michigan State University. 
 
-My current research focuses on climate change vulnerability, adaptation, and resilience focusing on international trade network, transportation, and environmental health disparities.  My job market paper investigates the impact of electricity tariffs dedicated to EV charging on the charging station entry decisions using Synthetic DID. 
+My current research focuses on transportation policies, electric vehicles, and mobility of elder population.  My job market paper investigates the impact of electricity tariffs dedicated to EV charging on the charging station entry decisions using Synthetic DID.
 
 My other work thus explores the impact driver's license renewal period extension in Maryland on the number of fatal crashes.
 
