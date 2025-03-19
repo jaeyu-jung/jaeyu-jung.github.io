@@ -12,7 +12,7 @@ related_publications: false
 
 <em>Updated March 2025</em>
 
-<object data="../assets/pdf/example_pdf.pdf" width="500" height="375" 
+<object data="../assets/pdf/Jae_Yu_Jung_CV.pdf" width="500" height="375" 
  type="application/pdf"> </object>
 
 {% comment %}
