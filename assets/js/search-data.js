@@ -29,7 +29,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-do-charging-station-care-about-electricity-rates",
           title: 'Do Charging Station Care about Electricity Rates?',
-          description: "",
+          description: "Jae-Yu Jung",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Do_EV_Charging/";
             },},{
