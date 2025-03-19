@@ -2,6 +2,8 @@
 layout: page
 title: Do Charging Stations Care about Electricity Rates?
 description: Jae-Yu Jung
+date:               2025-03-19 -04:00
+last_modified_at:
 img: assets/img/fig_sdid_event_dcfc_ports.tif
 importance: 1
 category: work
