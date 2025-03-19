@@ -12,8 +12,8 @@ related_publications: true
 
 <em>Updated March 2025</em>
 
-<embed src="../assets/pdf/example_pdf.pdf" width="500" height="375" 
- type="application/pdf">
+<object data="../assets/pdf/example_pdf.pdf" width="500" height="375" 
+ type="application/pdf"> </object>
 
 {% comment %}
 Every project has a beautiful feature showcase page.
