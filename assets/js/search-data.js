@@ -27,8 +27,8 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-do-charging-station-care-about-electricity-rates",
-          title: 'Do Charging Station Care about Electricity Rates?',
+          section: "News",},{id: "projects-do-charging-stations-care-about-electricity-rates",
+          title: 'Do Charging Stations Care about Electricity Rates?',
           description: "Jae-Yu Jung",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Do_EV_Charging/";
