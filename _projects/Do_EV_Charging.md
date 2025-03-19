@@ -2,7 +2,7 @@
 layout: page
 title: Do Charging Station Care about Electricity Rates?
 description:
-img: assets/img/12.jpg
+img: assets/img/fig_sdid_event_dcfc_ports.tif
 importance: 1
 category: work
 related_publications: true
