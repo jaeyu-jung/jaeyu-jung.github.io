@@ -194,6 +194,7 @@ exclude:
   - vendor
   - _posts
   - _pages/blog.md
+  - _projects/?_project.md
 
 keep_files:
   - CNAME
