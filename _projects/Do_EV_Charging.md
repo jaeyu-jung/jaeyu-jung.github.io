@@ -14,7 +14,7 @@ related_publications: false
 
 <object data="/assets/pdf/Jae_Yu_Jung_CV.pdf" width="500" height="375" 
  type="application/pdf"> 
-     <p>Insert your error message here, if the PDF cannot be displayed.</p> 
+     <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae_Yu_Jung_CV.pdf) directly.</p> 
  </object>
 
 {% comment %}
