@@ -11,6 +11,11 @@ related_publications: true
 ---
 
 <em>Updated March 2025</em>
+
+<embed src="../assets/pdf/example_pdf.pdf" width="500" height="375" 
+ type="application/pdf">
+
+ 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
