@@ -13,7 +13,9 @@ related_publications: false
 <em>Updated March 2025</em>
 
 <object data="/assets/pdf/Jae_Yu_Jung_CV.pdf" width="500" height="375" 
- type="application/pdf"> </object>
+ type="application/pdf"> 
+     <p>Insert your error message here, if the PDF cannot be displayed.</p> 
+ </object>
 
 {% comment %}
 Every project has a beautiful feature showcase page.
