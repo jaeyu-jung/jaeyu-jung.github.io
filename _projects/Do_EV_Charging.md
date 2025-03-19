@@ -7,7 +7,7 @@ last_modified_at:
 img: assets/img/fig_sdid_event_dcfc_ports.tif
 importance: 1
 category: work
-related_publications: true
+related_publications: false
 ---
 
 <em>Updated March 2025</em>
