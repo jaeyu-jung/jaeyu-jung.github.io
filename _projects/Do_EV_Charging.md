@@ -12,6 +12,9 @@ related_publications: false
 
 <em>Updated March 2025</em>
 
+{% pdf {{ page.pdf_local }} %}
+
+
 <object data="/assets/pdf/Jae_Yu_Jung_CV.pdf" width="500" height="375" 
  type="application/pdf"> 
      <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae_Yu_Jung_CV.pdf) directly.</p> 
