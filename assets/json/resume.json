@@ -18,22 +18,22 @@
     {
       "name": "Applied Microeconomics",
       "icon": "fa-solid fa-tag",
-      "keywords": []
+      "keywords": ["H"]
     },
     {
       "name": "Environment",
       "icon": "fa-solid fa-tag",
-      "keywords": []
+      "keywords": ["H"]
     },
     {
       "name": "Energy",
       "icon": "fa-solid fa-tag",
-      "keywords": []
+      "keywords": ["H"]
     },
     {
       "name": "Transportation",
       "icon": "fa-solid fa-tag",
-      "keywords": []
+      "keywords": ["H"]
     }
   ],
   "education": [
@@ -44,9 +44,9 @@
       "area": "Economics, Environmental Science and Policy",
       "studyType": "PhD",
       "startDate": "2019-08",
-      "endDate": "present",
+      "endDate": "2019-08",
       "score": "10",
-      "courses":
+      "courses": ["H"]
     },
     {
       "institution": "Seoul National University",
@@ -57,7 +57,7 @@
       "startDate": "2016-03",
       "endDate": "2019-08",
       "score": "10",
-      "courses":
+      "courses": ["H"]
     },
     {
       "institution": "Seoul National University",
@@ -68,7 +68,7 @@
       "startDate": "2010-03",
       "endDate": "2016-02",
       "score": "10",
-      "courses":
+      "courses": ["H"]
     }
   ],
   "awards": [
