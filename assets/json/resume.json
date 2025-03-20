@@ -14,19 +14,56 @@
       "region": "Michigan"
     }
   },
-  "work": [
+  "Fields of Interests": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
+      "name": "Applied Microeconomics",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Environment",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Energy",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
+    },
+    {
+      "name": "Transportation",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+      ]
     }
   ],
   "education": [
     {
+      "institution": "Michigan State University",
+      "location": "Michigan, the United States",
+      "url": "https://econ.msu.edu/",
+      "area": "Economics, Environmental Science and Policy",
+      "studyType": "PhD",
+      "startDate": "2019-08",
+      "endDate": "present",
+      "score": "10",
+      "courses":
+    },
+        {
+      "institution": "University of Zurich, Zurich, Switzerland",
+      "location": "Zurich, Switzerland",
+      "url": "https://www.uzh.ch/",
+      "area": "Software Development",
+      "studyType": "PhD",
+      "startDate": "1905-08",
+      "endDate": "present",
+      "score": "10",
+      "courses": ["Theory of Relativity"]
+    },
+        {
       "institution": "University of Zurich, Zurich, Switzerland",
       "location": "Zurich, Switzerland",
       "url": "https://www.uzh.ch/",
@@ -38,6 +75,7 @@
       "courses": ["Theory of Relativity"]
     }
   ],
+
   "awards": [
     {
       "title": "Nobel Prize in Physics",
@@ -141,20 +179,7 @@
       "icon": ""
     }
   ],
-  "interests": [
-    {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Quantum Mechanics",
-        "Quantum Computing",
-        "Quantum Information",
-        "Quantum Cryptography",
-        "Quantum Communication",
-        "Quantum Teleportation"
-      ]
-    }
-  ],
+
   "references": [
       {
           "name": "Soren T. Anderson, PhD",
@@ -173,3 +198,5 @@
       }
   ]
 }
+
+ 
