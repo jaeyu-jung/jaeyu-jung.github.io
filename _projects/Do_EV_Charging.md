@@ -12,8 +12,7 @@ related_publications: false
 
 <em>Updated March 2025</em>
 
-<object data="/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf" width="100%" height="100%"
- type="application/pdf"> 
+<object data="/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf" width="100%" height="100%" type="application/pdf"> 
      <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf) directly.</p> 
  </object>
 
