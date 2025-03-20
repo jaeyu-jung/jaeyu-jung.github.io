@@ -8,14 +8,13 @@ img: assets/img/fig_sdid_event_dcfc_ports.tif
 importance: 1
 category: work
 related_publications: false
-pdf_local: "/assets/pdf/Jae_Yu_Jung_CV.pdf"
 ---
 
 <em>Updated March 2025</em>
 
-<object data="/assets/pdf/Jae_Yu_Jung_CV.pdf" width="100%"
+<object data="/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf" width="100%"
  type="application/pdf"> 
-     <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae_Yu_Jung_CV.pdf) directly.</p> 
+     <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf) directly.</p> 
  </object>
 
 {% comment %}
