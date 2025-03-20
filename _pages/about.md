@@ -39,7 +39,7 @@ My other work thus explores the impact driver's license renewal period extension
 
 I'll be on the 2025-2026 job market.
 
-Research Interest: Transportation, Energy, and Mobility
+Research Interest: Environment, Transportation, Energy, and Mobility
 
 <!--Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
