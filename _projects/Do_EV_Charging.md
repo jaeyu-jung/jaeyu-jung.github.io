@@ -8,6 +8,7 @@ img: assets/img/fig_sdid_event_dcfc_ports.tif
 importance: 1
 category: work
 related_publications: false
+pdf_local: "/assets/pdf/Jae_Yu_Jung_CV.pdf"
 ---
 
 <em>Updated March 2025</em>
