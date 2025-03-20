@@ -5,7 +5,7 @@
     "email": "jungja10@msu.edu",
     "phone": "(517) 775-6292",
     "url": "https://colide12.github.io",
-    "summary": "A Korean economist, interested in transportation and energy economics.",
+    "summary": "A Korean economist, interested in environmental, transportation and energy economics.",
     "location": {
       "address": "486 W. Circle Drive, 110 Marshall-Adams Hall",
       "postalCode": "MI 48824-1038",
@@ -14,32 +14,32 @@
       "region": "Michigan"
     }
   },
-  "Fields of Interests": [
+  "Interests": [
     {
       "name": "Applied Microeconomics",
       "icon": "fa-solid fa-tag",
-      "keywords": ["H"]
+      "keywords": []
     },
     {
       "name": "Environment",
       "icon": "fa-solid fa-tag",
-      "keywords": ["H"]
-    },
-    {
-      "name": "Energy",
-      "icon": "fa-solid fa-tag",
-      "keywords": ["H"]
+      "keywords": []
     },
     {
       "name": "Transportation",
       "icon": "fa-solid fa-tag",
-      "keywords": ["H"]
+      "keywords": []
+    },
+    {
+      "name": "Energy",
+      "icon": "fa-solid fa-tag",
+      "keywords": []
     }
   ],
   "education": [
     {
       "institution": "Michigan State University",
-      "location": "Michigan, the United States",
+      "location": "Michigan, US",
       "url": "https://econ.msu.edu/",
       "area": "Economics, Environmental Science and Policy",
       "studyType": "PhD",
@@ -71,15 +71,6 @@
       "courses": ["H"]
     }
   ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "url": "https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
   "languages": [
     {
       "language": "Korean",
@@ -99,6 +90,22 @@
       "icon": "fa-solid fa-hashtag",
       "keywords": [   
       ]
+    }
+  ],
+  "Honors/Awards": [
+    {
+      "title": "Peter Schmidt Award",
+      "date": "Spring 2020",
+      "awarder": "Department of Economics, MSU",
+      "url": "",
+      "summary": ""
+    },
+    {
+      "title": "ESPP Doctoral Recruiting Fellowships",
+      "date": "Fall 2019",
+      "awarder": "Environment Science and Policy Program, MSU",
+      "url": "",
+      "summary": ""
     }
   ],
   "references": [
