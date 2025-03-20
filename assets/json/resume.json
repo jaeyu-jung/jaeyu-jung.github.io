@@ -18,26 +18,22 @@
     {
       "name": "Applied Microeconomics",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Environment",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Energy",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-      ]
+      "keywords": []
     },
     {
       "name": "Transportation",
       "icon": "fa-solid fa-tag",
-      "keywords": [
-      ]
+      "keywords": []
     }
   ],
   "education": [
