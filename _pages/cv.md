@@ -1,7 +1,7 @@
 ---
-layout: cv
+layout: CV
 permalink: /cv/
-title: cv
+title: CV
 nav: true
 nav_order: 2
 cv_pdf: 'Jae_Yu_Jung_CV.pdf' # you can also use external links here
