@@ -14,7 +14,7 @@
       "region": "Michigan"
     }
   },
-  "Interests": [
+  "interests": [
     {
       "name": "Applied Microeconomics",
       "icon": "fa-solid fa-tag",
@@ -83,7 +83,7 @@
       "icon": ""
     }
   ],
-  "Software": [
+  "software": [
     {
       "name": "Python",
       "level": "",
@@ -92,7 +92,7 @@
       ]
     }
   ],
-  "Honors/Awards": [
+  "honors": [
     {
       "title": "Peter Schmidt Award",
       "date": "Spring 2020",
