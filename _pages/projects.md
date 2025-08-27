@@ -1,11 +1,11 @@
 ---
 layout: page
-title: Projects
-permalink: /projects/
-description: A growing collection of your cool projects.
+title: Research
+permalink: /Research/
+description:
 nav: true
 nav_order: 3
-display_categories: [work]
+display_categories: [Working Papers, Works in Progress]
 horizontal: false
 ---
 
