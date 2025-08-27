@@ -77,7 +77,7 @@
       "abstract": "This paper examines the relationship between electricity rate plans and EV charging station installations. I match the number of EV charging stations in a zip code area to commercial electricity rate schedules of investor-owned utility companies in the United States from 2015 to 2022. I also simulate electricity bills for each rate schedule that would occur. Then, I use the synthetic control difference-in-differences method and the local projection difference-in-differences method to estimate how newly introduced EV-dedicated electricity tariffs, designed to alleviate the burden of high demand charges, affected electricity bills and EV charging station entries. The results indicate the introduction of EV-dedicated tariffs led to lower electricity demand charges and 1-2 additional charging ports per zip code.",
       "url": "https://jaeyu-jung.github.io/assets/pdf/Jae_Yu_Jung_CV.pdf"
     }
-  ]
+  ],
   "languages": [
     {
       "language": "Korean",
