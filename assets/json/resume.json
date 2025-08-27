@@ -46,7 +46,7 @@
       "startDate": "2019-08",
       "endDate": "2019-08",
       "score": "10",
-      "courses": ["H"]
+      "courses": # ["H"]
     },
     {
       "institution": "Seoul National University",
@@ -57,7 +57,7 @@
       "startDate": "2016-03",
       "endDate": "2019-08",
       "score": "10",
-      "courses": ["H"]
+      "courses": # ["H"]
     },
     {
       "institution": "Seoul National University",
@@ -71,6 +71,8 @@
       "courses": ["H"]
     }
   ],
+  "research":[
+  ]
   "languages": [
     {
       "language": "Korean",
