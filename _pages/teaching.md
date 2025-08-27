@@ -17,7 +17,7 @@ display_categories: [Instructor, Teaching Assistant]
 * Economics of Sports (Summer 2021)
 
 ### Teaching Assistant
-#### Graduate Courses
+#### Graduate (Ph.D.) Courses
 * Microeconomics I (Fall 2020)
 #### Undergraduate Courses
 * Public Finance (Spring 2023, Spring 2022, Spring 2021)
