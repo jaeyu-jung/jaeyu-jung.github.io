@@ -46,7 +46,7 @@
       "startDate": "2019-08",
       "endDate": "2019-08",
       "score": "10",
-      "courses": # ["H"]
+      "courses": []
     },
     {
       "institution": "Seoul National University",
@@ -57,7 +57,7 @@
       "startDate": "2016-03",
       "endDate": "2019-08",
       "score": "10",
-      "courses": # ["H"]
+      "courses": []
     },
     {
       "institution": "Seoul National University",
@@ -68,7 +68,7 @@
       "startDate": "2010-03",
       "endDate": "2016-02",
       "score": "10",
-      "courses": ["H"]
+      "courses": []
     }
   ],
   "research":[
@@ -99,7 +99,7 @@
       ]
     }
   ],
-  "awards": [
+  "honors": [
     {
       "title": "Peter Schmidt Award",
       "date": "Spring 2020",
@@ -119,17 +119,17 @@
       {
           "name": "Soren T. Anderson, PhD",
           "icon": "",
-          "reference": "Department of Economics<br>Email: sta@msu.edu"
+          "reference": "Department of Economics<br>Michigan State University<br>Email: sta@msu.edu<br>"
       },
        {
           "name": "Kyoo Il Kim, PhD",
           "icon": "",
-          "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+          "reference": "Department of Economics<br>Michigan State University<br>Email: kyookim@msu.edu"
       },
       {
           "name": "A. Justin Kirkpatrick, PhD",
           "icon": "",
-          "reference": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit. D"
+          "reference": "Department of Economics<br>Michigan State University<br>Email: jkirk@msu.edu"
       }
   ]
 }
