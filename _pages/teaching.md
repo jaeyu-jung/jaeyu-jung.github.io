@@ -38,7 +38,7 @@ display_categories: [Instructor, Teaching Assistant]
 * Market Design Theories and Applications (Spring 2018)
 * Microeconomics (Spring 2018)
 * Introductory Statistics for Economists (Fall 2016)
-<!--- 
+<!--
 *Do 6 questions per week. Email scanned work as one file in .pdf format by Tuesday evening.*
 
 Michaelmas Weeks 1-4: Dynamics:
@@ -107,3 +107,4 @@ More Advanced:
 * John Watrous - *[The Theory of Quantum Information](https://cs.uwaterloo.ca/~watrous/TQI/)*
 * Michael M. Wolf - *[Lecture Notes](https://www.math.cit.tum.de/en/math/people/professors/wolf-michael/)*
 * Andrew M. Childs - *[Lecture Notes on Quantum Algorithms](https://www.cs.umd.edu/~amchilds/qa/)*
+-->
