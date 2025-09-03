@@ -101,12 +101,12 @@
   ],
   "Teaching Experience": [
     {
-      "name": "Teaching Assistant, Public Finance, Michigan State University",
-      "summary": "",
-      "highlights": [],
-      "startDate": "Spring 2023",
-      "endDate": "",
+      "name": "PPL813: Public Finance",
+      "date": "Spring 2023",
       "url": ""
+      "awarder": "Teaching Assistant, Michigan State University",
+      "url": "",
+      "summary": ""
     }
   ],
   "Presentations":[
