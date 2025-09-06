@@ -23,3 +23,22 @@ $max-content-width: {{ site.max_width }};
   "tabler-icons/tabler-icons-filled.scss",
   "tabler-icons/tabler-icons-outline.scss"
 ;
+
+/* Custom Table Styles */
+table {
+  /* 테이블 전체의 위아래 여백을 조정해 다른 내용과 구분되게 합니다. */
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+table th,
+table td {
+  /* 셀 안쪽에 여백(padding)을 주어 글자가 선에 너무 붙지 않게 합니다. */
+  padding: 8px 12px;
+  border: 0; /* 테마의 기본 테두리는 모두 제거합니다. */
+}
+
+table tr {
+  /* 모든 행(tr)의 아래쪽에 1px짜리 옅은 회색 실선을 추가합니다. */
+  border-bottom: 1px solid #e9ecef;
+}
