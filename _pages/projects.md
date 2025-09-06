@@ -18,9 +18,9 @@ horizontal: false
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
   
-  <div class="container mt-4"> {# 컨테이너를 사용하여 페이지 폭 조절 #}
-    <div class="row justify-content-center"> {# 중앙 정렬 #}
-      <div class="col-12 col-lg-10"> {# 큰 화면에서는 10/12 폭, 작은 화면에서는 전체 폭 #}
+  <div class="container mt-4"> `컨테이너를 사용하여 페이지 폭 조절`
+    <div class="row justify-content-center"> `중앙 정렬`
+      <div class="col-12 col-lg-10"> `큰 화면에서는 10/12 폭, 작은 화면에서는 전체 폭`
         {% for project in sorted_projects %}
           {% comment %}
             {% include projects.liquid %}
