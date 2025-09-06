@@ -9,11 +9,20 @@ profile:
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p> Contact:             </p>
-    <p> jungja10 (at) msu (dot) edu </p>
-    <p> 517-775-6292  </p>
-
-   
+    <p>
+      Department of Economics<br>
+      Michigan State University<br>
+      East Lansing, MI 48824
+    </p>
+    <p>
+      <i class="fas fa-envelope"></i> jungja10 (at) msu.edu
+    </p>
+    <p>
+      <a href="https://www.linkedin.com/in/jae-yu-jung-94b614262" target="_blank">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </p>
+    
      <!-- <p>123 your address street</p>
     <p>Your City, State 12345</p>-->
 
@@ -41,6 +50,12 @@ I'll be on the 2025-2026 job market.
 
 Research Interest: Environment, Transportation, Energy, and Mobility
 
+<p>
+  <a href="assets/pdf/Jae_Yu_Jung_CV.pdf" target="_blank">
+    <i class="fab fa-linkedin"></i> Curriculum Vitae
+  </a>(Updated September 2025).
+</p>
+ 
 <!--Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
 Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
