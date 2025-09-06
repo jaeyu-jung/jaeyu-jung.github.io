@@ -19,8 +19,6 @@ display_categories: [Instructor, Teaching Assistant]
 
 ## Teaching Assistant
 
-### Michigan State University
-
 | Course Title                        | Level          | Semesters                               | University              |
 | :---------------------------------- | :----------    | :-------------------------------------- | :---------------------- |
 | EC812a: Microeconomics I                    | Graduate (Ph.D.)      | Fall 2020                               | Michigan State University |
