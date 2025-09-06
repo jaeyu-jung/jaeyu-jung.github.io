@@ -1,26 +1,27 @@
-{% raw %}<div class="publication">
-  <p class="title">{{ project.title }}</p>
-  <p class="authors">{{ project.authors }}</p>
-  <p class="venue"><em>{{ project.venue }}</em>, {{ project.year }}</p>
+{% raw %}<div class="publication-entry">
+  <h5 class="title">{{ project.title }}</h5>
+  
+  {% if project.authors and project.authors != "" %}
+    <p class="authors">{{ project.authors }}</p>
+  {% endif %}
 
-  <div class="links">
-    {% if project.pdf %}
-      <a href="{{ project.pdf | relative_url }}" class="btn btn-sm z-depth-0" role="button" target="_blank">PDF</a>
-    {% endif %}
-    {% if project.website %}
-      <a href="{{ project.website }}" class="btn btn-sm z-depth-0" role="button" target="_blank">Website</a>
-    {% endif %}
+  {% if project.description and project.description != "" %}
+    <p class="description">{{ project.description }}</p>
+  {% endif %}
 
-    {% if project.abstract %}
-      <details>
-        <summary>Abstract</summary>
-        <div class="abstract">
-          <blockquote>
-            {{ project.abstract | markdownify }}
-          </blockquote>
-        </div>
-      </details>
-    {% endif %}
-  </div>
+  {% if project.status and project.status != "" %}
+    <p class="status">{{ project.status }}</p>
+  {% endif %}
+  
+  {% if project.abstract %}
+    <details>
+      <summary>Abstract (click to expand)</summary>
+      <div class="abstract">
+        <blockquote>
+          {{ project.abstract | markdownify }}
+        </blockquote>
+      </div>
+    </details>
+  {% endif %}
 </div>
-<hr> {% endraw %}
+<hr>{% endraw %}
