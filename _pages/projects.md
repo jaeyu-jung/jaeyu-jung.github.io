@@ -24,9 +24,8 @@ horizontal: false
         {% for project in sorted_projects %}
           {% comment %}
             {% include projects.liquid %}
-            {% include projects_list.liquid %}
           {% endcomment %}
-          {% include projects_publication.liquid %}
+          {% include projects_list.liquid %}
         {% endfor %}
       </div>
     </div>
@@ -43,9 +42,8 @@ horizontal: false
         {% for project in sorted_projects %}
           {% comment %}
             {% include projects.liquid %}
-            {% include projects_list.liquid %}
           {% endcomment %}
-          {% include projects_publication.liquid %}
+        {% include projects_list.liquid %}
         {% endfor %}
       </div>
     </div>
