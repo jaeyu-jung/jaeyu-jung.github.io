@@ -16,6 +16,14 @@ related_publications: false
      <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf) directly.</p> 
  </object>
 
+---
+# 아래 abstract 필드를 추가하세요
+abstract: |
+  This is the first line of the abstract.
+  This paper investigates the intricate relationship between electricity rate structures and the operational decisions of Electric Vehicle (EV) charging stations. 
+  By analyzing a comprehensive dataset, we uncover key insights into how different tariff models influence charging prices, station utilization, and profitability.
+---
+
 {% comment %}
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
