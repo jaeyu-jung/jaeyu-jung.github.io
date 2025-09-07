@@ -53,7 +53,7 @@ I'll be on the 2025-2026 job market.
 Research Interest: Environment, Transportation, Energy, and Mobility
 
 <p>
-  <a href="assets/pdf/Jae_Yu_Jung_CV.pdf" target="_blank">
+  <a href="assets/pdf/cv_4.pdf" target="_blank">
    <i class="ai ai-cv"></i> Curriculum Vitae
   </a>(Updated September 2025).
 </p>
