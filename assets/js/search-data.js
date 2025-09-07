@@ -43,7 +43,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-do-charging-stations-care-about-electricity-rates",
           title: 'Do Charging Stations Care about Electricity Rates?',
-          description: "(Job Market Paper)",
+          description: "[Job Market Paper]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Do_EV_Charging/";
             },},{
