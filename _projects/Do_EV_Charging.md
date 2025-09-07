@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Do Charging Stations Care about Electricity Rates?
-description: "(Job Market Paper)"
+description: "[Job Market Paper]"
 authors: ""
 date:               2025-03-19 -04:00
 last_modified_at:
@@ -11,9 +11,7 @@ category: Working Papers
 related_publications: false
 pdf: /assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf
 abstract: |
-  This is the first line of the abstract.
-  This paper investigates the intricate relationship between electricity rate structures and the operational decisions of Electric Vehicle (EV) charging stations. 
-  By analyzing a comprehensive dataset, we uncover key insights into how different tariff models influence charging prices, station utilization, and profitability.
+  This paper examines how electricity rate plans affect EV charging station installations, using a novel dataset I construct that combines commercial electricity rates and charging stations in U.S. zip codes from 2015 to 2022. I aggregate the intricate pricing information into a single, comparable cost metric by simulating monthly electricity bills for a hypothetical charging station. Using the synthetic control and local projection difference-in-differences methods, I estimate the impact of new electricity rate schedules aimed at charging station operators—designed to alleviate high demand charges—on their electricity bills and entries. These rate schedules led to lower electricity demand charges and 1-2 additional charging ports per zip code, highlighting the effectiveness of targeted rate design in promoting EV infrastructure development.
 ---
 
 <em>Updated March 2025</em>
