@@ -42,7 +42,9 @@ latest_posts:
 
 I am a PhD student in Economics, dual majoring Environmental Science and Policy at Michigan State University. 
 
-My current research focuses on transportation policies, electric vehicles, and mobility of elder population.  My job market paper investigates the impact of electricity tariffs dedicated to EV charging on the charging station entry decisions using Synthetic DID.
+My research addresses pressing policy questions at the intersection of energy, environmental and trasportation economics. I use empirical methods from Applied Microeconomics to study policy-relevant questions in Energy Economics, with a current focus on electricity markets and the adoption of electric vehicles.  
+
+My job market paper investigates the impact of electricity tariffs dedicated to EV charging on the charging station entry decisions using Synthetic DID.
 
 My other work thus explores the impact driver's license renewal period extension in Maryland on the number of fatal crashes.
 
