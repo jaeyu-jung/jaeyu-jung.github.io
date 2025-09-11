@@ -40,9 +40,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-I am a PhD student in Economics, dual majoring Environmental Science and Policy at Michigan State University. 
+I am a PhD candidate in Economics, with a dual major in Environmental Science and Policy at Michigan State University.
 
-My research addresses pressing policy questions at the intersection of energy, environmental and trasportation economics. I use empirical methods from Applied Microeconomics to study policy-relevant questions in Energy Economics, with a current focus on electricity markets and the adoption of electric vehicles.  
+My research interests lie at the intersection of energy, environmental, transportation, and public economics. I use applied microeconomic methods to address pressing policy questions in these areas, with a current focus on electricity markets and the adoption of electric vehicles.
 
 My job market paper investigates the impact of electricity tariffs dedicated to EV charging on the charging station entry decisions using Synthetic DID.
 
