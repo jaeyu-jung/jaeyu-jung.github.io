@@ -20,7 +20,7 @@ horizontal: false
   
   <div class="container mt-4"> {% comment %} 컨테이너를 사용하여 페이지 폭 조절 {% endcomment %}
     <div class="row justify-content-center"> {% comment %} 중앙 정렬 {% endcomment %}
-      <div class="col-12 col-lg-10"> {% comment %} 큰 화면에서는 10/12 폭, 작은 화면에서는 전체 폭 {% endcomment %}
+      <div class="col-12 col-lg-12"> {% comment %} 큰 화면에서는 12/12 폭, 작은 화면에서는 전체 폭 {% endcomment %}
         {% for project in sorted_projects %}
           {% comment %}
             {% include projects.liquid %}
