@@ -117,9 +117,7 @@
               {% endif %}
             {% endif %}
           {% endfor %}
-          <li class="nav-item">
-            <a class="nav-link" href="{{ page.url | relative_url }}" {% if page.title == 'CV' or page.title == 'Resume' %}target="_blank" rel="noopener noreferrer"{% endif %}>{{ page.title }}</a>
-          </li>
+
           {% if site.search_enabled %}
             <!-- Search -->
             <li class="nav-item">
