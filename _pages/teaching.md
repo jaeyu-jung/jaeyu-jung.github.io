@@ -4,16 +4,16 @@ permalink: /teaching/
 title: Teaching
 description:  #This page will contain a list of courses I taught.
 nav: true
-nav_order: 6
+nav_order: 3
 display_categories: [Instructor, Teaching Assistant]
 ---
 
 ## Instructor
 
-| Course Title                            | Level          | Semester      | University              |
-| :-----------------------------          | :----------    | :------------ | :---------------------- |
-| EC302: Intermediate Macroeconomics      | Undergraduate  | Fall 2021     | Michigan State University |
-| EC370: Economics of Sports              | Undergraduate  | Summer 2021   | Michigan State University |
+| Course Title                                    | Level          | Semester      | No. of Students      | University              |
+| :-----------------------------                  | :----------    | :------------ | :------------   | :---------------------- |
+| EC302: Intermediate Macroeconomics (Online)     | Undergraduate  | Fall 2021     | 67              | Michigan State University |
+| EC370: Economics of Sports (Online)             | Undergraduate  | Summer 2021   | 35              | Michigan State University |
 
 <br>
 
