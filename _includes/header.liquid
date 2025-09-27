@@ -107,7 +107,7 @@
                   {%- else -%}
                     {%- assign url = p.url -%}
                   {%- endif %}
-                  <a class="nav-link" href="{{ url | relative_url }}">
+                  <a class="nav-link" href="{{ url | relative_url }}" {% assign title_down = p.title | downcase %}{% if title_down == 'cv' or title_down == 'resume' %}target="_blank" rel="noopener noreferrer"{% endif %}>
                     {{- p.title }}
                     {% if page.url contains p.url %}
                       <span class="sr-only">(current)</span>
