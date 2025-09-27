@@ -53,6 +53,11 @@ ninja.data = [{
           description: "[Job Market Paper]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Do_EV_Charging/";
+            },},{id: "projects-the-impact-of-extended-driver-39-s-license-renewal-on-fatal-crashes-among-older-maryland-drivers-across-urban-and-rural-areas",
+          title: 'The Impact of Extended Driver&amp;#39;s License Renewal on Fatal Crashes Among Older Maryland...',
+          description: "",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/Impact_of_Extended_Driver/";
             },},{
         id: 'social-email',
         title: 'email',
