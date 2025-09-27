@@ -57,9 +57,14 @@ $max-content-width: {{ site.max_width }};
   color: #007bff; /* 링크 색상으로 변경 */
   font-weight: normal;
   text-decoration: underline; /* 밑줄 추가 */
-  font-size: $h6-font-size;
+  font-size: $h5-font-size;
 }
 
 .publication-entry summary:hover {
   color: #0056b3; /* 마우스 올렸을 때 색상 변경 */
+}
+
+.publication-entry blockquote {
+  // h6 제목 크기로 설정
+  font-size: $h6-font-size;
 }
