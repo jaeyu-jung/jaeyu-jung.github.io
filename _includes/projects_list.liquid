@@ -1,14 +1,16 @@
 <div class="publication-entry">
   <h5 class="title">
     {% if project.pdf %}
-      <a href="{{ project.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
-    {% elsif project.external_link %}
-      <a href="{{ project.external_link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+      {% if project.pdf contains "://" %}
+        <a href="{{ project.pdf }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+      {% else %}
+        <a href="{{ project.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+      {% endif %}
     {% else %}
       {{ project.title }}
     {% endif %}
   </h5>
-  
+
   {% if project.authors and project.authors != "" %}
     <p class="authors">{{ project.authors }}</p>
   {% endif %}
@@ -22,14 +24,25 @@
   {% endif %}
   
   {% if project.abstract %}
-    <details>
-      <summary>Abstract (click to expand)</summary>
+    {% if site.expand_abstracts == false %}
+      {% comment %} _config.yml 설정이 false일 때만 -> '펼치기/접기' 사용 {% endcomment %}
+      <details>
+        <summary>Abstract (click to expand)</summary>
+        <div class="abstract">
+          <blockquote>
+            {{ project.abstract | markdownify }}
+          </blockquote>
+        </div>
+      </details>
+    {% else %}
+      {% comment %} _config.yml 설정이 없거나 true일 때 (기본값) -> 항상 펼침 {% endcomment %}
       <div class="abstract">
+        <h5>Abstract</h5>
         <blockquote>
           {{ project.abstract | markdownify }}
         </blockquote>
       </div>
-    </details>
+    {% endif %}
   {% endif %}
 </div>
 <hr>
