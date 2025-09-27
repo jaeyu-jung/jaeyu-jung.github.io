@@ -1,5 +1,13 @@
 <div class="publication-entry">
-  <h5 class="title">{{ project.title }}</h5>
+  <h5 class="title">
+    {% if project.pdf %}
+      <a href="{{ project.pdf | relative_url }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+    {% elsif project.external_link %}
+      <a href="{{ project.external_link }}" target="_blank" rel="noopener noreferrer">{{ project.title }}</a>
+    {% else %}
+      {{ project.title }}
+    {% endif %}
+  </h5>
   
   {% if project.authors and project.authors != "" %}
     <p class="authors">{{ project.authors }}</p>
