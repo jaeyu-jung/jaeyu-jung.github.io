@@ -1,4 +1,13 @@
 ---
+permalink: /assets/pdf/Jung_Jae-Yu_MichiganStateUniversity_CV.pdf
+title: CV
+nav: true
+nav_order: 4
+---
+
+
+<!--
+---
 layout: cv
 permalink: /CV/
 title: CV
@@ -9,3 +18,4 @@ description: "This page is under construction though you can download up-to-date
 toc:
   sidebar: left
 ---
+-->
