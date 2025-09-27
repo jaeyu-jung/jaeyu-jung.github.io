@@ -64,7 +64,7 @@ $max-content-width: {{ site.max_width }};
   color: #0056b3; /* 마우스 올렸을 때 색상 변경 */
 }
 
-.publication-entry blockquote {
+.publication-entry abstract blockquote {
   // h6 제목 크기로 설정
   font-size: $h6-font-size;
 }
