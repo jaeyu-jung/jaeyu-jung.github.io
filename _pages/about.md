@@ -51,7 +51,7 @@ My research interests lie at the intersection of energy, environmental, transpor
   |
   <a href="assets/pdf/Jung_Jae-Yu_MichiganStateUniversity_Resume.pdf" target="_blank">
     Resume
-  </a>(Updated September 2025).
+  </a>(Updated October 2025).
 </p>
  
 <!--Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
