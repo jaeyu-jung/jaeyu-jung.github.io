@@ -3,15 +3,15 @@ layout: page
 title: Do Charging Stations Care about Electricity Rates?
 description: "[Job Market Paper]"
 authors: ""
-date:               2025-03-19 -04:00
-last_modified_at:
+date: 2025-03-19 -04:00
+last_modified_at: 2025-10-12
 img: assets/img/fig_sdid_event_dcfc_ports.png
 importance: 1
 category: Working Papers
 related_publications: false
 pdf: /assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf
 abstract: 
-  This paper examines how electricity rate plans affect EV charging station installations, using a novel dataset I construct that combines commercial electricity rates and charging stations in U.S. zip codes from 2015 to 2022. I aggregate the intricate pricing information into a single, comparable cost metric by simulating monthly electricity bills for a hypothetical charging station. Using the synthetic control and local projection difference-in-differences methods, I estimate the impact of new electricity rate schedules aimed at charging station operators—designed to alleviate high demand charges—on their electricity bills and entries. These rate schedules led to lower electricity demand charges and 1-2 additional charging ports per zip code, highlighting the effectiveness of targeted rate design in promoting EV infrastructure development.
+  I study the effect of electricity prices on market entry of electric vehicle (EV) charging stations. I compile a novel dataset that links commercial electricity prices to charging stations across U.S. zip codes from 2015–2022. I translate complex pricing schedules into a standardized cost metric by constructing station-level load profiles based on observed charging sessions and calculating the resulting monthly electricity bills for those stations. Employing synthetic control and local projection difference-in-differences methods, I estimate the effects of new price schedules for EV charging stations—introduced to reduce high demand charges—on both station electricity costs and market entry. The results show that these schedules substantially lowered demand charges for DC fast charging stations and increased entry of any charging port by 1–1.5 units per zip code, underscoring the role of targeted rate design in accelerating EV infrastructure growth.
 ---
 
 <em>Updated March 2025</em>
