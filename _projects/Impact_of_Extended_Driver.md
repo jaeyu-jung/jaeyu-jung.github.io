@@ -8,6 +8,9 @@ importance: 2
 category: Works in Progress
 related_publications: false
 giscus_comments: true
+pdf: /assets/pdf/Jung_impact_of_extended.pdf
+abstract: 
+  We examine the impact of Maryland’s driver’s license renewal period extension on fatal crashes involving senior drivers using county-level data from 2012–2019 and the Synthetic Difference-in-Differences method. Results indicate an increase in fatal crashes among older drivers, particularly in urban counties, with some estimates statistically significant. The findings suggest that renewal cycle extensions may exacerbate crash risks for senior drivers, especially in urban areas.
 ---
 {% comment %}
 Every project has a beautiful feature showcase page.
