@@ -9,8 +9,8 @@ img: assets/img/fig_sdid_event_dcfc_ports.png
 importance: 1
 category: Working Papers
 related_publications: false
-pdf: [/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf](https://michiganstate-my.sharepoint.com/:b:/r/personal/jungja10_msu_edu/Documents/PycharmProjects/evDescriptive/docfiles/Jae-Yu%20Jung_dissertation_proposal_ch1_v2.pdf?csf=1&web=1&e=wTbpcR)
-abstract: |
+pdf: https://michiganstate-my.sharepoint.com/:b:/r/personal/jungja10_msu_edu/Documents/PycharmProjects/evDescriptive/docfiles/Jae-Yu%20Jung_dissertation_proposal_ch1_v2.pdf?csf=1&web=1&e=wTbpcR
+abstract: 
   This paper examines how electricity rate plans affect EV charging station installations, using a novel dataset I construct that combines commercial electricity rates and charging stations in U.S. zip codes from 2015 to 2022. I aggregate the intricate pricing information into a single, comparable cost metric by simulating monthly electricity bills for a hypothetical charging station. Using the synthetic control and local projection difference-in-differences methods, I estimate the impact of new electricity rate schedules aimed at charging station operators—designed to alleviate high demand charges—on their electricity bills and entries. These rate schedules led to lower electricity demand charges and 1-2 additional charging ports per zip code, highlighting the effectiveness of targeted rate design in promoting EV infrastructure development.
 ---
 
