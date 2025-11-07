@@ -48,9 +48,9 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-",
-          title: '',
-          description: "",
+          section: "News",},{id: "projects-do-charging-stations-care-about-electricity-rates",
+          title: 'Do Charging Stations Care about Electricity Rates?',
+          description: "[Job Market Paper]",
           section: "Projects",handler: () => {
               window.location.href = "/projects/Do_EV_Charging/";
             },},{id: "projects-the-impact-of-extended-driver-39-s-license-renewal-on-fatal-crashes-among-older-maryland-drivers-across-urban-and-rural-areas",
