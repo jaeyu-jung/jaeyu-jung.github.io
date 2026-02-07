@@ -14,56 +14,60 @@ pdf: /assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf
 
 ## Abstract
 
-<script id="raw-latex" type="text/template">
-{% include_relative abstract_do_ev_charging_stations.tex %}
-</script>
-
-<div id="abstract-content" style="white-space: pre-line;">
-  <span style="color:gray; font-size:0.9em;">Loading abstract... (If this persists, check the file name)</span>
+<div id="abstract-container" style="white-space: pre-line; min-height: 50px;">
+  <span style="color:gray; font-size:0.9em;">Loading abstract...</span>
 </div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    try {
-      // 1. 템플릿 안의 텍스트 원본 가져오기
-      var rawElement = document.getElementById('raw-latex');
-      if (!rawElement) throw new Error("Source element not found");
-      
-      var rawText = rawElement.innerHTML;
+    // 1. 파일 경로 설정 (캐시 방지를 위해 시간 추가)
+    // site.url과 site.baseurl을 조합하여 절대 경로를 만듭니다.
+    const texUrl = "{{ site.url }}{{ site.baseurl }}/assets/pdf/abstract_do_ev_charging_stations.tex?v={{ site.time | date: '%s' }}";
 
-      // 2. 내용이 비어있는지 확인 (include_relative 실패 시 빈 값일 수 있음)
-      if (!rawText.trim()) {
-        throw new Error("File content is empty or not found.");
-      }
+    fetch(texUrl)
+      .then(response => {
+        if (!response.ok) {
+            throw new Error("File not found (" + response.status + ")");
+        }
+        return response.text();
+      })
+      .then(text => {
+        // 2. 주석(%) 제거 및 텍스트 청소 로직
+        
+        // (A) 줄 맨 앞의 % 주석 제거 (문단 전체 주석)
+        let cleanText = text.replace(/^%.*/gm, '');
 
-      // 3. 주석(%) 제거 및 LaTeX 청소
-      // (A) 줄의 맨 앞에 있는 % 주석 제거
-      let cleanText = rawText.replace(/^%.*/gm, ''); 
-      // (B) 문장 중간에 있는 % 주석 제거 (단, \%는 제외)
-      cleanText = cleanText.replace(/([^\\])%.*/g, '$1');
-      // (C) LaTeX 이스케이프 문자 복구 (50\% -> 50%)
-      cleanText = cleanText.replace(/\\%/g, '%');
-      
-      // (D) 너무 많은 빈 줄(3줄 이상)은 2줄로 줄임
-      cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
+        // (B) 문장 중간의 % 주석 제거 (단, \%는 제외하고 지움)
+        // 설명: 역슬래시(\)가 아닌 글자 뒤에 %가 오면, 그 %부터 줄 끝까지 삭제
+        cleanText = cleanText.replace(/([^\\])%.*/g, '$1');
 
-      // 4. 화면에 출력
-      var container = document.getElementById('abstract-content');
-      container.innerText = cleanText.trim();
+        // (C) LaTeX 이스케이프 문자 복구 (50\% -> 50%)
+        cleanText = cleanText.replace(/\\%/g, '%');
 
-      // 5. MathJax 수식 다시 그리기 (수식이 있을 경우 필수)
-      if (window.MathJax) {
-          if (MathJax.typesetPromise) {
-              MathJax.typesetPromise([container]);
-          } else if (MathJax.Hub) {
-              MathJax.Hub.Queue(["Typeset", MathJax.Hub, container]);
-          }
-      }
-    } catch (e) {
-      console.error("Abstract rendering error:", e);
-      document.getElementById('abstract-content').innerHTML = 
-        "<span style='color:red;'>Error: " + e.message + "</span>";
-    }
+        // (D) 3줄 이상 연속된 빈 줄은 2줄로 줄임 (보기 좋게)
+        cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
+
+        // 3. 화면에 출력
+        const container = document.getElementById('abstract-container');
+        container.innerText = cleanText.trim();
+
+        // 4. MathJax 수식 다시 렌더링 (가장 중요!)
+        if (window.MathJax) {
+            // MathJax 3.x (최신 al-folio)
+            if (MathJax.typesetPromise) {
+                MathJax.typesetPromise([container]);
+            } 
+            // MathJax 2.x (구형)
+            else if (MathJax.Hub) {
+                MathJax.Hub.Queue(["Typeset", MathJax.Hub, container]);
+            }
+        }
+      })
+      .catch(error => {
+        console.error('Abstract Load Error:', error);
+        document.getElementById('abstract-container').innerHTML = 
+          "<span style='color:red;'>Abstract 로딩 실패.<br>경로 확인 필요: " + texUrl + "</span>";
+      });
   });
 </script>
 
