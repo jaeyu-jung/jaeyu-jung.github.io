@@ -14,33 +14,56 @@ pdf: /assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf
 
 ## Abstract
 
-<div id="raw-latex" style="display:none;">
+<script id="raw-latex" type="text/template">
 {% include_relative abstract_do_ev_charging_stations.tex %}
-</div>
+</script>
 
-<div id="clean-abstract"></div>
+<div id="abstract-content" style="white-space: pre-line;">
+  <span style="color:gray; font-size:0.9em;">Loading abstract... (If this persists, check the file name)</span>
+</div>
 
 <script>
   document.addEventListener("DOMContentLoaded", function() {
-    // 숨겨진 원본 텍스트 가져오기
-    var rawText = document.getElementById('raw-latex').innerHTML;
+    try {
+      // 1. 템플릿 안의 텍스트 원본 가져오기
+      var rawElement = document.getElementById('raw-latex');
+      if (!rawElement) throw new Error("Source element not found");
+      
+      var rawText = rawElement.innerHTML;
 
-    // 단계 A: 주석(%로 시작하는 문장) 제거
-    // 1. 줄 맨 앞에 있는 % 주석 제거
-    var cleanText = rawText.replace(/^%.*/gm, '');
-    // 2. 문장 중간에 있는 % 주석 제거 (단, \%는 제외)
-    cleanText = cleanText.replace(/([^\\])%.*/g, '$1');
+      // 2. 내용이 비어있는지 확인 (include_relative 실패 시 빈 값일 수 있음)
+      if (!rawText.trim()) {
+        throw new Error("File content is empty or not found.");
+      }
 
-    // 단계 B: LaTeX 특수문자 변환
-    // 1. 50\% -> 50% 로 변환 (역슬래시 제거)
-    cleanText = cleanText.replace(/\\%/g, '%');
-    
-    // 단계 C: 줄바꿈 처리 (선택사항)
-    // LaTeX의 줄바꿈을 HTML <br>로 바꾸고 싶다면 아래 주석을 해제하세요
-    // cleanText = cleanText.replace(/\n/g, '<br>');
+      // 3. 주석(%) 제거 및 LaTeX 청소
+      // (A) 줄의 맨 앞에 있는 % 주석 제거
+      let cleanText = rawText.replace(/^%.*/gm, ''); 
+      // (B) 문장 중간에 있는 % 주석 제거 (단, \%는 제외)
+      cleanText = cleanText.replace(/([^\\])%.*/g, '$1');
+      // (C) LaTeX 이스케이프 문자 복구 (50\% -> 50%)
+      cleanText = cleanText.replace(/\\%/g, '%');
+      
+      // (D) 너무 많은 빈 줄(3줄 이상)은 2줄로 줄임
+      cleanText = cleanText.replace(/\n{3,}/g, '\n\n');
 
-    // 최종 결과 출력
-    document.getElementById('clean-abstract').innerText = cleanText;
+      // 4. 화면에 출력
+      var container = document.getElementById('abstract-content');
+      container.innerText = cleanText.trim();
+
+      // 5. MathJax 수식 다시 그리기 (수식이 있을 경우 필수)
+      if (window.MathJax) {
+          if (MathJax.typesetPromise) {
+              MathJax.typesetPromise([container]);
+          } else if (MathJax.Hub) {
+              MathJax.Hub.Queue(["Typeset", MathJax.Hub, container]);
+          }
+      }
+    } catch (e) {
+      console.error("Abstract rendering error:", e);
+      document.getElementById('abstract-content').innerHTML = 
+        "<span style='color:red;'>Error: " + e.message + "</span>";
+    }
   });
 </script>
 
