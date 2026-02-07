@@ -20,7 +20,39 @@ abstract:
      <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf) directly.</p> 
  </object>
 
+## Abstract
 
+<div id="raw-latex" style="display:none;">
+{% include_relative abstract_do_ev_charging_stations.tex %}
+</div>
+
+<div id="clean-abstract"></div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    // 숨겨진 원본 텍스트 가져오기
+    var rawText = document.getElementById('raw-latex').innerHTML;
+
+    // 단계 A: 주석(%로 시작하는 문장) 제거
+    // 1. 줄 맨 앞에 있는 % 주석 제거
+    var cleanText = rawText.replace(/^%.*/gm, '');
+    // 2. 문장 중간에 있는 % 주석 제거 (단, \%는 제외)
+    cleanText = cleanText.replace(/([^\\])%.*/g, '$1');
+
+    // 단계 B: LaTeX 특수문자 변환
+    // 1. 50\% -> 50% 로 변환 (역슬래시 제거)
+    cleanText = cleanText.replace(/\\%/g, '%');
+    
+    // 단계 C: 줄바꿈 처리 (선택사항)
+    // LaTeX의 줄바꿈을 HTML <br>로 바꾸고 싶다면 아래 주석을 해제하세요
+    // cleanText = cleanText.replace(/\n/g, '<br>');
+
+    // 최종 결과 출력
+    document.getElementById('clean-abstract').innerText = cleanText;
+  });
+</script>
+
+<br>
 
 {% comment %}
 Every project has a beautiful feature showcase page.
