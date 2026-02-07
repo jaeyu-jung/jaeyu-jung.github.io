@@ -14,12 +14,6 @@ abstract:
   I study the effect of electricity prices on market entry of electric vehicle (EV) charging stations. I compile a novel dataset linking commercial electricity prices to charging stations across U.S. ZIP codes from 2015–2022. I convert complex pricing schedules into a standardized cost metric by constructing station-level load profiles from observed charging sessions and calculating monthly bills. Using synthetic control and local projection difference-in-differences designs, I estimate the effects of new price schedules for EV charging stations, aimed at reducing high demand charges. The results show that these schedules substantially lowered demand charges for DC fast charging stations by 50% and increased the entry of DC fast charging ports by by 35% per zip code, underscoring the role of targeted rate design in accelerating EV infrastructure growth.
 ---
 
-<em>Updated March 2025</em>
-
-<object data="/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf" width="100%" height="1600%" type="application/pdf"> 
-     <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf) directly.</p> 
- </object>
-
 ## Abstract
 
 <div id="raw-latex" style="display:none;">
@@ -53,6 +47,13 @@ abstract:
 </script>
 
 <br>
+
+<em>Updated March 2025</em>
+
+<object data="/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf" width="100%" height="1600%" type="application/pdf"> 
+     <p>You can [get the PDF]({{ site.url }}/assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf) directly.</p> 
+ </object>
+
 
 {% comment %}
 Every project has a beautiful feature showcase page.
