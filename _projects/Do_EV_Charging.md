@@ -10,8 +10,6 @@ importance: 1
 category: Working Papers
 related_publications: false
 pdf: /assets/pdf/Jae-Yu Jung_dissertation_proposal_ch1_v2.pdf
-abstract: 
-  I study the effect of electricity prices on market entry of electric vehicle (EV) charging stations. I compile a novel dataset linking commercial electricity prices to charging stations across U.S. ZIP codes from 2015–2022. I convert complex pricing schedules into a standardized cost metric by constructing station-level load profiles from observed charging sessions and calculating monthly bills. Using synthetic control and local projection difference-in-differences designs, I estimate the effects of new price schedules for EV charging stations, aimed at reducing high demand charges. The results show that these schedules substantially lowered demand charges for DC fast charging stations by 50% and increased the entry of DC fast charging ports by by 35% per zip code, underscoring the role of targeted rate design in accelerating EV infrastructure growth.
 ---
 
 ## Abstract
@@ -56,6 +54,9 @@ abstract:
 
 
 {% comment %}
+abstract: 
+  I study the effect of electricity prices on market entry of electric vehicle (EV) charging stations. I compile a novel dataset linking commercial electricity prices to charging stations across U.S. ZIP codes from 2015–2022. I convert complex pricing schedules into a standardized cost metric by constructing station-level load profiles from observed charging sessions and calculating monthly bills. Using synthetic control and local projection difference-in-differences designs, I estimate the effects of new price schedules for EV charging stations, aimed at reducing high demand charges. The results show that these schedules substantially lowered demand charges for DC fast charging stations by 50% and increased the entry of DC fast charging ports by by 35% per zip code, underscoring the role of targeted rate design in accelerating EV infrastructure growth.
+  
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
