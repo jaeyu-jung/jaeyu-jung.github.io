@@ -39,10 +39,11 @@ latest_posts:
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
+Welcome!
 
-I am a PhD candidate in Economics, with a dual major in Environmental Science and Policy at Michigan State University. I am currently on the 2025-2026 job market and am open to positions in academia, government, and industry, both in the United States and internationally.
+I am an Associate Research Fellow in Korea Energy Economics Institute. 
 
-My research interests lie at the intersection of energy, environmental, transportation, and public economics. More specifically, my job market paper investigates how electricity rate schedules dedicated to EV charging stations affect charging station entry decisions, using Synthetic Difference-in-Differences and Local Projection Difference-in-Differences.
+My research interests lie at the intersection of energy, environmental, transportation economics, and policies related to renewable energy. 
 
 <p>
   <a href="assets/pdf/Jung_Jae-Yu_MichiganStateUniversity_CV.pdf" target="_blank">
